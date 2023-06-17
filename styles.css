@@ -55,11 +55,29 @@ body {
     height: 200px;
     object-fit: cover;
   }
+  .product button {
+    background-color: whitesmoke; /* Change button background color */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Add button border-radius */
+  }
+  
+  .product button:hover {
+    background-color: lightgray; /* Change button background color on hover */
+    outline: 1.5px solid azure;
+  }
   
   footer {
     background-color: black;
     color: #fff;
-    padding: 25px;
+    padding: 2.5%;
     text-align: center;
   }
   
