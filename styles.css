@@ -25,6 +25,14 @@ body {
   header a {
     text-decoration: none;
   }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+  }
+
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -41,14 +49,15 @@ body {
     text-decoration: none;
     padding: 10px;
   }
+
   .logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 17.5%;
-    margin-bottom: -50px;
-    margin-top: -20px;
-    
+    margin-bottom: 0;
+    margin-top: 10px;
+
+    height: 100px;
   }
   section {
     padding: 20px;
@@ -62,6 +71,7 @@ body {
     margin-right: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type:none ;
   }
   
   .product img {
@@ -150,5 +160,12 @@ body {
     padding: 2.5%;
     text-align: center;
     margin-top: auto;
+  }
+
+   .featured-products ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    text-align:center
   }
   
