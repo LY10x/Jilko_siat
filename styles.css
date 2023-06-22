@@ -97,10 +97,7 @@ body {
     transition: 0.75s;
   }
 
-  .product button:focus{
-    background-color: greenyellow;
-    color: purple;
-  }
+ 
   
   .product button:hover {
     background-color: lightgray; /* Change button background color on hover */
@@ -355,7 +352,7 @@ body {
 
 
   .marto{
-    color: red;
+    color: rgba(69, 12, 135, 0.5);
     justify-content: center;
     align-items: centre;
     font-size: 70px;

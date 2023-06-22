@@ -3,6 +3,16 @@
 <head>
   <title>Shoe Store</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="contact.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("C35InXLQe50oswv0e");
+   })();
+</script>
+
 </head>
 <body>
   <header>
@@ -33,7 +43,7 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="5" required></textarea>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" onclick="sendMail()">Submit</button>
     </form>
   </div>
   <footer>
